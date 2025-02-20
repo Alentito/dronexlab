@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="drone.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+
+    <div id="mask">
+      <dotlottie-player
+        class="load"
+        src="https://lottie.host/f8ef5756-af83-48d5-9e8c-ec4af2047826/VUWTUrDZzh.lottie"
+        background="transparent"
+        speed="1"
+        style="width: 300px; height: 300px"
+        loop
+        autoplay
+      ></dotlottie-player>
+    </div>
+    <script>
+      window.onload = function () {
+        document.getElementById("mask").style.display = "none";
+      };
+    </script>
+    <nav>
+      <div class="left">
+        <h1>DroneXLab</h1>
+      </div>
+      <div class="mid">
+        <a href="#about">About</a>
+        <a href="#product">Product</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="right">
+        <a href="">Get in touch</a>
+      </div>
+    </nav>
+    <div id="iris" class="container">
+      <section class="main-scene">
+        <img src="grad.png" alt="" />
+        <div class="head">
+          <h1>DroneXlab</h1>
+          <p>
+            A Drone based startup company, in partnership with iiit kottayam. to
+            bring you the dronexlab so that you can start building drone.
+          </p>
+          <div class="hdbtn">
+            <a href="">Get Started</a>
+            <div id="light"></div>
+          </div>
+        </div>
+
+        <div class="parallax main-scene--level-bottom" data-offset="5"></div>
+        <div class="parallax main-scene--level-middle" data-offset="10"></div>
+        <div class="parallax main-scene--level-top" data-offset="15"></div>
+      </section>
+      <section>
+        <div class="main">
+          <h1 class="main-stat">DroneX<br />Lab</h1>
+          <div class="main-txt">
+            <p>
+              We’re DroneXlab. We develop<br />
+              drones for innovation.
+            </p>
+
+            <div class="git">
+              <a href="">Get in touch</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="#about">
+        <div class="team-main">
+          <div class="left">
+            <h1>What we do</h1>
+            <p>
+              At DroneXLab, we are committed to empowering innovation,
+              education, and hands-on experience in drone technology. Whether
+              you're a student, professional, or enthusiast, we provide the
+              tools and knowledge to help you master drone technology and
+              robotics.
+            </p>
+            <div class="btn">
+              <a href="">Get in touch</a>
+            </div>
+          </div>
+          <div class="right">
+            <img src="./drone.jpeg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section id="product">
+        <div class="produt">
+          <div class="top">
+            <h1>Explore Our Products</h1>
+            <p>
+              We provide high-quality drone and robotics kits designed for
+              beginners, students, and professionals.
+            </p>
+          </div>
+          <div class="bottom">
+            <div class="bt-top">
+              <img class="img" src="./kit.png" alt="" />
+              <img class="img" src="./esc.png" alt="" />
+              <img class="img" src="./rob.png" alt="" />
+            </div>
+            <div class="bt-bottom">
+              <a href="">Get in touch</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="team" class="team">
+        <div class="team-tit">
+          <h1>Our Team</h1>
+        </div>
+        <div
+          class="slider"
+          style="--width: 400px; --height: 450px; --quantity: 4"
+        >
+          <div class="list">
+            <div class="item" style="--position: 1">
+              <img src="./1.png" alt="" />
+            </div>
+            <div class="item" style="--position: 2">
+              <img src="./2.png" alt="" />
+            </div>
+            <div class="item" style="--position: 3">
+              <img src="./3.png" alt="" />
+            </div>
+            <div class="item" style="--position: 4">
+              <img src="./4.png" alt="" />
+            </div>
+            <!-- <div class="item" style="--position: 5">
+              <img src="back.png" alt="" />
+            </div>
+            <div class="item" style="--position: 6">
+              <img src="back.png" alt="" />
+            </div>
+            <div class="item" style="--position: 7">
+              <img src="back.png" alt="" />
+            </div>
+            <div class="item" style="--position: 8">
+              <img src="back.png" alt="" />
+            </div> -->
+            <!-- <div class="item" style="--position: 9"><img src="images/slider1_9.png" alt=""></div> -->
+            <!-- <div class="item" style="--position: 10"><img src="images/slider1_10.png" alt=""></div> -->
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="cons">
+        <div class="produt">
+          <div class="top">
+            <h1>Get in Touch with DroneXLab</h1>
+            <p>Have questions or want to enroll? Reach out to us!</p>
+          </div>
+          <div class="bottom-con">
+            <div class="left-con">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.12804722561!2d76.6474769747295!3d9.755219877199398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07ce23bc170053%3A0x8757971e61eb21dd!2sIndian%20Institute%20of%20Information%20Technology%20(IIIT)%20Kottayam!5e0!3m2!1sen!2sin!4v1740058944448!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="rig-con">
+              <form class="contact" id="contactForm">
+                <input type="hidden" name="_template" value="table" />
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="http://127.0.0.1:5500/"
+                />
+                <input type="hidden" name="_captcha" value="false" />
+                <label for="name">Name</label>
+                <input type="text" placeholder="name" name="name" required />
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  placeholder="email.com"
+                  name="email"
+                  required
+                />
+                <label for="message">Message</label>
+                <textarea name="message" placeholder="message..."></textarea>
+                <div id="success-message">Email submitted successfully!</div>
+
+                <div class="btn">
+                  <button type="submit">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <div id="pupil"></div> -->
+    </div>
+    <footer>
+    <h1>A Intiative by Nexospark</h1>
+    <div>
+      <a href="https://www.linkedin.com/company/dronex-lab-iiit-kottayam"><img src="./lin.png" alt=""></a>
+    </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+    <script type="module">
+      const lenis = new Lenis();
+
+      // Update ScrollTrigger on Lenis scroll
+      lenis.on("scroll", ScrollTrigger.update);
+
+      // Add Lenis's requestAnimationFrame handling to GSAP's ticker
+      gsap.ticker.add((time) => {
+        lenis.raf(time * 1000);
+      });
+
+      // Disable GSAP ticker lag smoothing for better sync
+      gsap.ticker.lagSmoothing(0);
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent the default form submission behavior
+
+          // Collect form data
+          const formData = new FormData(this);
+          const data = {};
+          formData.forEach((value, key) => {
+            data[key] = value;
+          });
+
+          // Send data using fetch
+          fetch("https://formsubmit.co/ajax/cbaa8cf6613b925a9176d09aa0d5ffd9", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Accept: "application/json",
+            },
+            body: JSON.stringify(data),
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              console.log(data);
+              showSuccessMessage(); // Show success message
+            })
+            .catch((error) => console.error("Error:", error));
+        });
+
+      function showSuccessMessage() {
+        const successDiv = document.getElementById("success-message");
+        successDiv.style.display = "block"; // Show the success message
+
+        setTimeout(() => {
+          successDiv.style.display = "none"; // Hide the success message after 5 seconds
+        }, 5000);
+      }
+    </script>
+  </body>
+</html>
