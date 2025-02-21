@@ -489,6 +489,8 @@ section {
   border: none;
   font-size: 18pt;
   font-family: "Syne";
+      cursor: pointer;
+
 }
 
 /* Drone Animation: From Top to Center */
